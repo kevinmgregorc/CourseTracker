@@ -1,12 +1,14 @@
 doctype html
 html
   head
-    title First Pug Page
+    title CourseMate
     style
       include ./assets/style/layout.css
   body
+  h2 Welcome to CourseMate
   form(class='box' action='layout.pug' method='POST')
-    h1 Login
+    h1 Login Here
     input(type='text' name='' placeholder='Username')
     input(type='password' name='' placeholder='Password')
     input(type='submit' name='' value='Login')
+    p Don't have an account? Click Here!
